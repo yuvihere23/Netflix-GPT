@@ -77,7 +77,7 @@ const Header = () => {
         <button className='font-bold text-white mr-5 bg-purple-600 rounded-lg p-2'
         onClick={handletoggleGPTview}>{showGPTSearch?"Homepage":"GPT-Search"}</button>
           <img
-          className='w-10 h-10'
+          className='w-10 h-10 mt-2'
           src={user.photoURL?user.photoURL:avatar}
           alt='avatar'/>
           <button className='font-bold text-white'
